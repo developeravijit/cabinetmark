@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cabinetmark llc</title>
+    <!-- AOS CDN -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="hdr-sec">
+        <nav class="navbar navbar-expand-xl">
+            <div class="container hdr-container">
+                <div class="nav-logo">
+                    <a class="navbar-brand" href="./index.html">
+                        <img src="./assets/Logo.png" alt="" />
+                    </a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+                    <span class="navbar-toggler-icon">
+                        <i class="fa-solid fa-bars navtoggle-btn"></i>
+                    </span>
+                </button>
+                <div class="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+                    id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                    <div class="offcanvas-header me-auto">
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
+                            <i class="fa-solid fa-xmark navtoggle-btn"></i>
+                        </button>
+                    </div>
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Shop now
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">shoping 1</a></li>
+                                <li><a class="dropdown-item" href="#">shoping 2</a></li>
+                                <li><a class="dropdown-item" href="#">shoping 3</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="" class="nav-link cart-itemList">
+                                <i class="fa-solid fa-magnifying-glass cart-icon"></i>
+                                <span class="cart off-item">
+                                    Search
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <a href="" class="nav-link cart-itemList">
+                                <i class="fa-solid fa-user cart-icon"></i>
+                                <span class="cart off-item">
+                                    User
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <span class="devider"></span>
+                        </li>
+                        <li class="list-item ">
+                            <a href="" class="cart-itemList nav-link ">
+                                <i class="fa-solid fa-bag-shopping cart-icon"></i>
+                                <span class="cart">
+                                    Cart: 0 item (S)
+                                </span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+
+    <main>
+        <!-- Banner Section -->
+        <section class="bnr-sec">
+            <div class="container">
+                <div class="bnr-wrpr">
+                    <div class="bnr-cntn" data-aos="zoom-in-up"
+                    data-aos-duration="1500">
+                        <h1 class="title-1">
+                            factory direct pricing
+                        </h1>
+                        <p class="para para1">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been
+                            the industry's standard dummy
+                        </p>
+                        <div class="bnr-btn ">
+                            <a href="" class="primary-btn d-inline-flex align-items-center">
+                                Explore doors
+                                <div class="primaryBtn-icon">
+                                    <img src="./assets/Vector.svg" alt="" />
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="abt-sec">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12 col-xl-5">
+                        <div class="about-cntn" data-aos="fade-right">
+                            <div class="hdr-cntn">Who we are</div>
+                            <h2 class="title-2">About us</h2>
+                            <div class="title2-icon">
+                                <img src="./assets/about.png" alt="" />
+                            </div>
+                            <div class="abtPara-box">
+                                <p class="para">
+                                    Lorem Ipsum is simply dummy text of the printing and
+                                    typesetting industry. Lorem Ipsum has been the industry's
+                                    standard dummy text ever since the 1500s, when an unknown
+                                    printer took a galley of type and scrambled it to make a type
+                                    specimen book.
+                                </p>
+                                <p class="para2 para">
+                                    Lorem Ipsum is simply dummy text of the printing and
+                                    typesetting industry. Lorem Ipsum has been the industry's
+                                    standard dummy text ever since the 1500s, when an unknown
+                                    printer took a galley of type and scrambled it to make a type
+                                    specimen book.
+                                </p>
+                                <p class="para">
+                                    Lorem Ipsum is simply dummy text of the printing and
+                                    typesetting industry. Lorem Ipsum has been the industry's
+                                    standard dummy text ever since the 1500s, when an unknown
+                                    printer took a galley of type and scrambled it to make a type
+                                    specimen book.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-xl-7">
+                        <div class="about-imgBox" data-aos="fade-left">
+                            <figure class="aboutBanner-img1" data-tilt>
+                                <img src="./assets/About-img-1.png" alt="" />
+                            </figure>
+                            <figure class="aboutBanner-img2" data-tilt>
+                                <img src="./assets/About-img-2.png" alt="" />
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="offer-heading">
+                    <p class="hdr-cntn">Why Choose us</p>
+                    <h2 class="title-2">Advantages we offer</h2>
+                    <div class="abtTitle2-icon">
+                        <img src="./assets/advantage.png" alt="" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col-6">
+                        <div class="offer-card" data-aos="flip-left">
+                            <div class="offerCard-icons shoping">
+                                <div class="card-icon"><img src="./assets/shoping.png" alt="" /></div>
+                            </div>
+                            <div class="offerCard-content">
+                                <h3 class="title-3">Shop Widely</h3>
+                                <p>lorem ipsum simply dummy</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="offer-card" data-aos="flip-right">
+                            <div class="offerCard-icons discount">
+                                <div class="card-icon"><img src="./assets/discount.png" alt="" /></div>
+                            </div>
+                            <div class="offerCard-content">
+                                <h3 class="title-3">Big Saving Shop</h3>
+                                <p>lorem ipsum simply dummy</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="offer-card" data-aos="flip-left">
+                            <div class="offerCard-icons customer">
+                                <div class="card-icon"><img src="./assets/customer care.png" alt="" /></div>
+                            </div>
+                            <div class="offerCard-content">
+                                <h3 class="title-3">24H 7D Support</h3>
+                                <p>lorem ipsum simply dummy</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="offer-card" data-aos="flip-right">
+                            <div class="offerCard-icons quality">
+                                <div class="card-icon"><img src="./assets/quality.png" alt="" /></div>
+                            </div>
+                            <div class="offerCard-content">
+                                <h3 class="title-3">Quality Matches Price</h3>
+                                <p>lorem ipsum simply dummy</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mission Section -->
+        <section class="msn-sec">
+            <div class="container msn-container">
+                <div class="row align-items-center">
+                    <div class="col-12 col-xl-7">
+                        <div class="mission-banner" data-tilt data-aos="zoom-in">
+                            <figure class="missionBanner-img1">
+                                <img src="./assets/mission.png" alt="" />
+                                <div class="missionBanner-img2">
+                                    <img src="./assets/mission square.png" alt="" />
+                                </div>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-12 col-xl-5">
+                        <div class="mission-content">
+                            <h2 class="title-2" data-aos="zoom-in-left">Our Mission</h2>
+                            <div class="title2-icon" data-aos="zoom-in-left">
+                                <img src="./assets/about.png" alt="" />
+                            </div>
+                            <p class="para para3" data-aos="zoom-in-right">
+                                Lorem Ipsum is simply dummy text of the printing and
+                                typesetting industry. Lorem Ipsum has been the industry's
+                                standard dummy text ever since the 1500s,Lorem Ipsum is simply
+                                dummy text of the printing and typesetting industry. Lorem
+                                Ipsum.
+                            </p>
+                            <p class="para para4" data-aos="zoom-in-right">
+                                Lorem Ipsum is simply dummy text of the printing and
+                                typesetting industry. Lorem Ipsum has been the industry's
+                                standard dummy text ever since the 1500s,Lorem Ipsum is simply
+                                dummy text of the printing and typesetting industry. Lorem
+                                Ipsum has been the industry's standard dummy text ever since
+                                the 1500s,Lorem Ipsum is simply dummy text of the printing and
+                                typesetting industry. Lorem Ipsum has been the industry's
+                                standard dummy text ever since the 1500s,
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="ftr-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-xl-3 col-md-4 mb-5 mb-xl-0">
+                    <div class="ftr-cntn1">
+                        <div class="ftr-hdr">Get up to 10% off!</div>
+                        <p class="ftr-para para">
+                            Be the first to know about new arrivals and exclusive offers.
+                        </p>
+                        <form action="" class="ftr-form">
+                            <input type="email" name="email-form" id="email-form" placeholder="Enter Your email" />
+                            <button class="ftr-btn primary-btn secondary-btn">
+                                Subscribe
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-xl-3">
+                    <div class="ftr-cntn2">
+                        <div class="ftr-hdr">Quick Links</div>
+                        <ul class="ftr-list">
+                            <li class="ftrList-item">
+                                <a href="" class="ftr-links">Home</a>
+                            </li>
+                            <li class="ftrList-item">
+                                <a href="" class="ftr-links">About Us</a>
+                            </li>
+                            <li class="ftrList-item">
+                                <a href="" class="ftr-links">Shop Now</a>
+                            </li>
+                            <li class="ftrList-item">
+                                <a href="" class="ftr-links">Contact Us</a>
+                            </li>
+                            <li class="ftrList-item">
+                                <a href="" class="ftr-links">Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-xl-3">
+                    <div class="ftr-cntn3">
+                        <div class="ftr-hdr">Institutional</div>
+                        <ul class="ftr-list">
+                            <li class="ftrList-item">
+                                <a href="" class="ftr-links">Privacy Policy</a>
+                            </li>
+                            <li class="ftrList-item">
+                                <a href="" class="ftr-links">Terms & Conditions</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4 col-xl-3">
+                    <div class="ftr-cntn4">
+                        <div class="ftr-hdr">Social media</div>
+                        <ul class="ftr-list ftr-social">
+                            <li class="ftrList-item">
+                                <a href="" class="ftrSocial-icons"><img src="./assets/Facebook.png" alt="" /></a>
+                                <div class="tooltip">Facebook</div>
+                            </li>
+                            <li class="ftrList-item">
+                                <a href="" class="ftrSocial-icons"><img src="./assets/Linkdin.png" alt="" /></a>
+                                <div class="tooltip">LinkedIn</div>
+                            </li>
+                            <li class="ftrList-item">
+                                <a href="" class="ftrSocial-icons"><img src="./assets/Insta.png" alt="" /></a>
+                                <div class="tooltip">Instagram</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="ftr-devider">
+        <div class="container">
+            <div class="ftr-btm">
+                <a href="" class="copyright">
+                    Copyright © 2025 – CabinetMark LLC – All Rights Reserved
+                </a>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Vanilla Tilt -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"
+        integrity="sha512-wC/cunGGDjXSl9OHUH0RuqSyW4YNLlsPwhcLxwWW1CR4OeC2E1xpcdZz2DeQkEmums41laI+eGMw95IJ15SS3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <!-- Custom JS -->
+    <script src="./script/script.js"></script>
+</body>
+
+</html>
